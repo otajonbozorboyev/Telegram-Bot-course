@@ -16,4 +16,4 @@ async def banned_member(message: types.Message):
         return
     else:
         await message.answer(f"{message.left_chat_member.full_name} guruhdan haydaldi "
-                             f"Admin: {message.from_user.get_mention(as_html=True)}.")
+                            f"Admin: {message.from_user.get_mention(as_html=True)}.")
